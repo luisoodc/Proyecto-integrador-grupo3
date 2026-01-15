@@ -30,5 +30,10 @@ namespace proyecto
 			// Oculta la página de inicio
 			this.Hide(); 
 		}
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

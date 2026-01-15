@@ -30,5 +30,10 @@ namespace proyecto
 			form3.Show();
 			this.Close(); // Cierra Form6
 		}
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
