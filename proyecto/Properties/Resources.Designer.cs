@@ -183,6 +183,16 @@ namespace proyecto.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Barraganete {
+            get {
+                object obj = ResourceManager.GetObject("Barraganete", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Blue_and_Purple_Colorful_Gradient_Playful_Cute_Pixel_Game_Illustrative_Trivia_Quiz_Presentation {
             get {
                 object obj = ResourceManager.GetObject("Blue and Purple Colorful Gradient Playful Cute Pixel Game Illustrative Trivia Qui" +
@@ -355,6 +365,16 @@ namespace proyecto.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Dominico {
+            get {
+                object obj = ResourceManager.GetObject("Dominico", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap EMpanadas {
             get {
                 object obj = ResourceManager.GetObject("EMpanadas", resourceCulture);
@@ -395,6 +415,36 @@ namespace proyecto.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Harton {
+            get {
+                object obj = ResourceManager.GetObject("Harton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Macho {
+            get {
+                object obj = ResourceManager.GetObject("Macho", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Maqueño {
+            get {
+                object obj = ResourceManager.GetObject("Maqueño", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Organizador_Gráfico_Mapa_Mental_Sencillo_Multicolor {
             get {
                 object obj = ResourceManager.GetObject("Organizador Gráfico Mapa Mental Sencillo Multicolor", resourceCulture);
@@ -418,6 +468,16 @@ namespace proyecto.Properties {
         internal static System.Drawing.Bitmap plagas {
             get {
                 object obj = ResourceManager.GetObject("plagas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap platano_piesna {
+            get {
+                object obj = ResourceManager.GetObject("platano piesna", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

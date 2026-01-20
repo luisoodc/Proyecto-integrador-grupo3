@@ -10,33 +10,21 @@ using System.Windows.Forms;
 
 namespace proyecto
 {
-    public partial class Form4 : Form
+    public partial class Form11infor : Form
     {
-        public Form4()
+        public Form11infor()
         {
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-			Form3 form3 = new Form3();
-			form3.Show();
-			this.Close(); // Cierra Form4
-		}
-
         private void button1_Click(object sender, EventArgs e)
         {
-			Form3 form3 = new Form3();
-			form3.Show();
-			this.Close(); // Cierra Form4
-		}
-
-        private void Form4_Load(object sender, EventArgs e)
-        {
-
+            Form5 login = new Form5();
+            login.Show();
+            this.Close(); // Cierra Form3
         }
 
-        private void memorama_Click(object sender, EventArgs e)
+        private void irjuego_Click(object sender, EventArgs e)
         {
             Form11juego1 login = new Form11juego1();
             login.Show();

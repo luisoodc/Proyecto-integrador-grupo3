@@ -108,10 +108,10 @@
             this.button3.BackColor = System.Drawing.Color.Transparent;
             this.button3.BackgroundImage = global::proyecto.Properties.Resources.btncasa;
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.Location = new System.Drawing.Point(665, 2);
+            this.button3.Location = new System.Drawing.Point(674, 2);
             this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(71, 41);
+            this.button3.Size = new System.Drawing.Size(62, 46);
             this.button3.TabIndex = 7;
             this.button3.UseVisualStyleBackColor = false;
             // 

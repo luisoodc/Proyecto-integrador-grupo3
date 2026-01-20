@@ -58,6 +58,18 @@
     <Compile Include="Form10.Designer.cs">
       <DependentUpon>Form10.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form11infor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form11infor.Designer.cs">
+      <DependentUpon>Form11infor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form11juego1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form11juego1.Designer.cs">
+      <DependentUpon>Form11juego1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +125,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form10.resx">
       <DependentUpon>Form10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form11infor.resx">
+      <DependentUpon>Form11infor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form11juego1.resx">
+      <DependentUpon>Form11juego1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
@@ -271,6 +289,25 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\4N.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Harton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dominico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Macho.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maqueño.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barraganete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Dorso.png" />
+    <None Include="Resources\platano piesna.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

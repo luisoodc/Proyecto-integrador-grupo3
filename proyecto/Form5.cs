@@ -24,7 +24,7 @@ namespace proyecto
 
         private void button1_Click(object sender, EventArgs e)
         {
-			Form6 form6 = new Form6();
+			Form11infor form6 = new Form11infor();
 			form6.Show();
 			this.Hide(); // Oculta Form5
 		}
