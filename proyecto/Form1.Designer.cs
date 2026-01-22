@@ -43,10 +43,10 @@
             this.btnInicio1.BackgroundImage = global::proyecto.Properties.Resources.button_for_starting_game_clicking_play_vector;
             this.btnInicio1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnInicio1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnInicio1.Location = new System.Drawing.Point(250, 217);
+            this.btnInicio1.Location = new System.Drawing.Point(250, 223);
             this.btnInicio1.Margin = new System.Windows.Forms.Padding(2);
             this.btnInicio1.Name = "btnInicio1";
-            this.btnInicio1.Size = new System.Drawing.Size(66, 30);
+            this.btnInicio1.Size = new System.Drawing.Size(66, 28);
             this.btnInicio1.TabIndex = 0;
             this.btnInicio1.UseVisualStyleBackColor = false;
             this.btnInicio1.Click += new System.EventHandler(this.btnInicio_Click);
@@ -79,9 +79,9 @@
             this.tableLayoutPanel1.RowCount = 5;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 24.92492F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.51051F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 24.02402F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 26.72673F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.60961F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 23.12312F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(574, 333);
             this.tableLayoutPanel1.TabIndex = 2;
             // 

@@ -43,11 +43,15 @@
             this.panelmacho = new System.Windows.Forms.Panel();
             this.button5 = new System.Windows.Forms.Button();
             this.paneldominico = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.panelharton = new System.Windows.Forms.Panel();
-            this.button6 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.imgfondojuego1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBarra)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picturedominico)).BeginInit();
@@ -181,7 +185,11 @@
             // 
             // panelmaqueño
             // 
-            this.panelmaqueño.BackColor = System.Drawing.Color.Maroon;
+            this.panelmaqueño.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.panelmaqueño.BackColor = System.Drawing.Color.DarkGray;
+            this.panelmaqueño.Controls.Add(this.label6);
+            this.panelmaqueño.Controls.Add(this.label4);
+            this.panelmaqueño.Controls.Add(this.label3);
             this.panelmaqueño.Controls.Add(this.button4);
             this.panelmaqueño.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelmaqueño.Location = new System.Drawing.Point(0, 0);
@@ -203,7 +211,8 @@
             // 
             // panelmacho
             // 
-            this.panelmacho.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.panelmacho.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.panelmacho.Controls.Add(this.label5);
             this.panelmacho.Controls.Add(this.button5);
             this.panelmacho.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelmacho.Location = new System.Drawing.Point(0, 0);
@@ -224,7 +233,7 @@
             // 
             // paneldominico
             // 
-            this.paneldominico.BackColor = System.Drawing.Color.Cyan;
+            this.paneldominico.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.paneldominico.Controls.Add(this.label2);
             this.paneldominico.Controls.Add(this.button2);
             this.paneldominico.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -233,6 +242,17 @@
             this.paneldominico.Size = new System.Drawing.Size(800, 450);
             this.paneldominico.TabIndex = 13;
             this.paneldominico.Visible = false;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Stencil", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(170, 89);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(409, 29);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "INFORMACION SOBRE EL DOMINICO";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // button2
             // 
@@ -246,7 +266,7 @@
             // 
             // panelharton
             // 
-            this.panelharton.BackColor = System.Drawing.Color.Olive;
+            this.panelharton.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panelharton.Controls.Add(this.label1);
             this.panelharton.Controls.Add(this.button6);
             this.panelharton.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -255,6 +275,16 @@
             this.panelharton.Size = new System.Drawing.Size(800, 450);
             this.panelharton.TabIndex = 13;
             this.panelharton.Visible = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(92, 67);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(600, 33);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "INFORMACION SOBRE EL BARRAGANETE";
             // 
             // button6
             // 
@@ -266,44 +296,64 @@
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.Volver_Click);
             // 
-            // label1
+            // label3
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(10, 91);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(600, 33);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "INFORMACION SOBRE EL BARRAGANETE";
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Stencil", 27.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(306, 56);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(190, 44);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "MAQUEÑO";
             // 
-            // label2
+            // label4
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(-200, 34);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(531, 33);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "INFORMACION SOBRE EL DOMINICO";
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Stencil", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(132, 173);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(545, 25);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Aqui se mostrara informacion sobre el maqueño";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Stencil", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(132, 75);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(520, 25);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "Aqui se mostrara informacion sobre el macho";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Stencil", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(209, 67);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(443, 29);
+            this.label6.TabIndex = 4;
+            this.label6.Text = "CULTIVO  Y VARIEDADES DEL PLATANO";
             // 
             // Form11infor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.panelmaqueño);
-            this.Controls.Add(this.paneldominico);
-            this.Controls.Add(this.panelharton);
-            this.Controls.Add(this.panelmacho);
+            this.Controls.Add(this.pictureBarra);
             this.Controls.Add(this.picturemaqueño);
             this.Controls.Add(this.picturemacho);
             this.Controls.Add(this.pictureharton);
             this.Controls.Add(this.picturedominico);
-            this.Controls.Add(this.panelbarraganete);
             this.Controls.Add(this.irjuego);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.imgfondojuego1);
-            this.Controls.Add(this.pictureBarra);
+            this.Controls.Add(this.panelmaqueño);
+            this.Controls.Add(this.paneldominico);
+            this.Controls.Add(this.panelharton);
+            this.Controls.Add(this.panelmacho);
+            this.Controls.Add(this.panelbarraganete);
             this.Name = "Form11infor";
             this.Text = "Form11infor";
             ((System.ComponentModel.ISupportInitialize)(this.imgfondojuego1)).EndInit();
@@ -314,7 +364,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.picturemaqueño)).EndInit();
             this.panelbarraganete.ResumeLayout(false);
             this.panelmaqueño.ResumeLayout(false);
+            this.panelmaqueño.PerformLayout();
             this.panelmacho.ResumeLayout(false);
+            this.panelmacho.PerformLayout();
             this.paneldominico.ResumeLayout(false);
             this.paneldominico.PerformLayout();
             this.panelharton.ResumeLayout(false);
@@ -346,5 +398,9 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
     }
 }

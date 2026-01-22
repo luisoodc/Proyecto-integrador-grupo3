@@ -67,10 +67,15 @@ namespace proyecto
             ((Button)sender).Parent.Visible = false;
         }
 
-       /* private void btnVolver(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
-            // Oculta el panel actual
-            ((Button)sender).Parent.Visible = false;
-        }*/
+
+        }
+
+        /* private void btnVolver(object sender, EventArgs e)
+         {
+             // Oculta el panel actual
+             ((Button)sender).Parent.Visible = false;
+         }*/
     }
 }
