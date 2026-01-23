@@ -57,11 +57,6 @@ namespace proyecto
 
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void panelmacho_Paint(object sender, PaintEventArgs e)
         {
 
@@ -70,6 +65,20 @@ namespace proyecto
         {
             // Oculta el panel actual
             ((Button)sender).Parent.Visible = false;
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+            form3.Show();
+            this.Close(); // Cierra Form6
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Form2 form3 = new Form2();
+            form3.Show();
+            this.Close(); // Cierra Form6
         }
     }
 }

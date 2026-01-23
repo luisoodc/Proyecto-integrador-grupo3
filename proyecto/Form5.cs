@@ -31,7 +31,7 @@ namespace proyecto
 
         private void button3_Click(object sender, EventArgs e)
         {
-			Form7 form7 = new Form7();
+			Form6 form7 = new Form6();
 			form7.Show();
 			this.Hide(); // Oculta Form5
 		}

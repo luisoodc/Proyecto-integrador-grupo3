@@ -82,6 +82,11 @@ namespace proyecto
             // Oculta el panel actual
             ((Button)sender).Parent.Visible = false;
         }
+        private void button4_Click(object sender, EventArgs e)
+        {
+            // Oculta el panel actual
+            ((Button)sender).Parent.Visible = false;
+        }
 
         private void button3_Click(object sender, EventArgs e)
         {
@@ -90,6 +95,32 @@ namespace proyecto
         }
 
         private void button2_Click(object sender, EventArgs e)
+        {
+            // Oculta el panel actual
+            ((Button)sender).Parent.Visible = false;
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label25_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label44_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
         {
             // Oculta el panel actual
             ((Button)sender).Parent.Visible = false;
