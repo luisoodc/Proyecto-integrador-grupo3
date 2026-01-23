@@ -56,7 +56,7 @@ namespace proyecto
 
             // 3. Mostrar solo el panel que corresponde al Tag de la imagen
             if (nombrePanel == "panelmacho") panelmacho.Visible = true;
-            else if (nombrePanel == "panelmaqueno") panelmaqueño.Visible = true;
+            else if (nombrePanel == "panelmaqueño") panelmaqueño.Visible = true;
             else if (nombrePanel == "panelbarraganete") panelbarraganete.Visible = true;
             else if (nombrePanel == "panelharton") panelharton.Visible = true;
             else if (nombrePanel == "paneldominico") paneldominico.Visible = true;
@@ -70,6 +70,29 @@ namespace proyecto
         private void label2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Form11infor_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            // Oculta el panel actual
+            ((Button)sender).Parent.Visible = false;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            // Oculta el panel actual
+            ((Button)sender).Parent.Visible = false;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            // Oculta el panel actual
+            ((Button)sender).Parent.Visible = false;
         }
 
         /* private void btnVolver(object sender, EventArgs e)

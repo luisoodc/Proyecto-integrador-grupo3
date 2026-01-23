@@ -100,6 +100,12 @@
     <Compile Include="Form6.Designer.cs">
       <DependentUpon>Form6.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form6juego2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6juego2.Designer.cs">
+      <DependentUpon>Form6juego2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form7.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -146,6 +152,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form6.resx">
       <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6juego2.resx">
+      <DependentUpon>Form6juego2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form7.resx">
       <DependentUpon>Form7.cs</DependentUpon>
@@ -307,6 +316,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\Dorso.png" />
+    <None Include="Resources\gorgojo.png" />
+    <None Include="Resources\suri.png" />
+    <None Include="Resources\sigatoka.png" />
+    <None Include="Resources\platano bien.png" />
     <None Include="Resources\platano piesna.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

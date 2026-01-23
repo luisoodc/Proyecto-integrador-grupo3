@@ -202,6 +202,9 @@
   <data name="Organizador Gráfico Mapa Mental Sencillo Multicolor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Organizador Gráfico Mapa Mental Sencillo Multicolor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="platano bien" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\platano bien.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Gráfico Organizador Tabla de Tres Elementos Doodle Verde Blanco y Gris" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Gráfico Organizador Tabla de Tres Elementos Doodle Verde Blanco y Gris.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -210,6 +213,9 @@
   </data>
   <data name="Harina de verde" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Harina de verde.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="platano piesna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\platano piesna.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -244,7 +250,13 @@
   <data name="BTNclasificacion" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BTNclasificacion.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="platano piesna" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\platano piesna.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="sigatoka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sigatoka.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="suri" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\suri.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gorgojo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gorgojo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

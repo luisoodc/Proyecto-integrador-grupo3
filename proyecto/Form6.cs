@@ -16,7 +16,28 @@ namespace proyecto
         {
             InitializeComponent();
         }
+        private void MostrarPanel_Click(object sender, EventArgs e)
+        {
+            /*MessageBox.Show("¡Hiciste clic en una carta!");
 
+            PictureBox imagenSeleccionada = sender as PictureBox;*/
+
+            // 1. Identificar qué imagen recibió el clic
+            PictureBox picSeleccionado = sender as PictureBox;
+            string nombrePanel = picSeleccionado.Tag.ToString();
+
+            // 2. Ocultar TODOS los paneles primero para que no se encimen
+            panelsuri.Visible = false;
+            panelsigatoka.Visible = false;
+            panelgorgojo.Visible = false;
+           
+
+            // 3. Mostrar solo el panel que corresponde al Tag de la imagen
+            if (nombrePanel == "panelsuri") panelsuri.Visible = true;
+            else if (nombrePanel == "panelsigatoka") panelsigatoka.Visible = true;
+            else if (nombrePanel == "panelgorgojo") panelgorgojo.Visible = true;
+       
+        }
         private void button2_Click(object sender, EventArgs e)
         {
 			Form5 form5 = new Form5();
@@ -34,6 +55,21 @@ namespace proyecto
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panelmacho_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+        private void Volver_Click(object sender, EventArgs e)
+        {
+            // Oculta el panel actual
+            ((Button)sender).Parent.Visible = false;
         }
     }
 }

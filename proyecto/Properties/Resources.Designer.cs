@@ -385,6 +385,16 @@ namespace proyecto.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap gorgojo {
+            get {
+                object obj = ResourceManager.GetObject("gorgojo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Grafico_Linea_del_Tiempo_Timeline_Historia_Empresa_Doodle_Multicolor {
             get {
                 object obj = ResourceManager.GetObject("Grafico Linea del Tiempo Timeline Historia Empresa Doodle Multicolor", resourceCulture);
@@ -475,9 +485,39 @@ namespace proyecto.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap platano_bien {
+            get {
+                object obj = ResourceManager.GetObject("platano bien", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap platano_piesna {
             get {
                 object obj = ResourceManager.GetObject("platano piesna", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sigatoka {
+            get {
+                object obj = ResourceManager.GetObject("sigatoka", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap suri {
+            get {
+                object obj = ResourceManager.GetObject("suri", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
