@@ -27,7 +27,7 @@ namespace proyecto
             string nombrePanel = picSeleccionado.Tag.ToString();
 
             // 2. Ocultar TODOS los paneles primero para que no se encimen
-            panelsuri.Visible = false;
+            panelsuri.Visible = false; 
             panelsigatoka.Visible = false;
             panelgorgojo.Visible = false;
            

@@ -126,6 +126,43 @@ namespace proyecto
             ((Button)sender).Parent.Visible = false;
         }
 
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Formcultivo login = new Formcultivo();
+            login.Show();
+            this.Close(); // Cierra Form3
+        }
+
+        private void label20_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label32_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label14_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label27_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label28_Click(object sender, EventArgs e)
+        {
+
+        }
+
         /* private void btnVolver(object sender, EventArgs e)
          {
              // Oculta el panel actual

@@ -385,6 +385,16 @@ namespace proyecto.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fondocultivo {
+            get {
+                object obj = ResourceManager.GetObject("fondocultivo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap gbarraganete {
             get {
                 object obj = ResourceManager.GetObject("gbarraganete", resourceCulture);
@@ -498,6 +508,16 @@ namespace proyecto.Properties {
         internal static System.Drawing.Bitmap Gráfico_Organizador_Tabla_de_Tres_Elementos_Doodle_Verde_Blanco_y_Gris {
             get {
                 object obj = ResourceManager.GetObject("Gráfico Organizador Tabla de Tres Elementos Doodle Verde Blanco y Gris", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Green_Illustrative_Agriculture_Business_Trifold_Brochure {
+            get {
+                object obj = ResourceManager.GetObject("Green Illustrative Agriculture Business Trifold Brochure", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

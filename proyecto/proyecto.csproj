@@ -325,6 +325,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\Dorso.png" />
+    <None Include="Resources\Green Illustrative Agriculture Business Trifold Brochure.png" />
+    <None Include="Resources\fondocultivo.png" />
     <None Include="Resources\ggharton.png" />
     <None Include="Resources\ggdominico.png" />
     <None Include="Resources\gdominico.png" />
