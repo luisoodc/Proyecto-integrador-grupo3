@@ -325,6 +325,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\Dorso.png" />
+    <None Include="Resources\ggharton.png" />
+    <None Include="Resources\ggdominico.png" />
+    <None Include="Resources\gdominico.png" />
+    <None Include="Resources\gharton.png" />
+    <None Include="Resources\gmaqueño.png" />
+    <None Include="Resources\gmacho.png" />
+    <None Include="Resources\gbarraganete.png" />
+    <None Include="Resources\Gemini_Generated_Image_kdnw6gkdnw6gkdnw.png" />
+    <None Include="Resources\Gemini_Generated_Image_mc31jrmc31jrmc31.png" />
     <None Include="Resources\gorgojo.png" />
     <None Include="Resources\suri.png" />
     <None Include="Resources\sigatoka.png" />
