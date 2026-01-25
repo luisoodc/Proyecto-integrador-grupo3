@@ -324,6 +324,8 @@
     <None Include="Resources\Barraganete.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\verdadero.png" />
+    <None Include="Resources\descargas.png" />
     <Content Include="Resources\Dorso.png" />
     <None Include="Resources\Green Illustrative Agriculture Business Trifold Brochure.png" />
     <None Include="Resources\fondocultivo.png" />

@@ -29,25 +29,27 @@
         private void InitializeComponent()
         {
             this.panelcaracteristicas = new System.Windows.Forms.Panel();
-            this.panelproceso = new System.Windows.Forms.Panel();
             this.button4 = new System.Windows.Forms.Button();
+            this.panelproceso = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
             this.irjuego = new System.Windows.Forms.Button();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.imgfondojuego1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panelcaracteristicas.SuspendLayout();
             this.panelproceso.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgfondojuego1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgfondojuego1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panelcaracteristicas
@@ -62,16 +64,6 @@
             this.panelcaracteristicas.TabIndex = 9;
             this.panelcaracteristicas.Visible = false;
             // 
-            // panelproceso
-            // 
-            this.panelproceso.Controls.Add(this.button2);
-            this.panelproceso.Controls.Add(this.pictureBox4);
-            this.panelproceso.Location = new System.Drawing.Point(642, 27);
-            this.panelproceso.Name = "panelproceso";
-            this.panelproceso.Size = new System.Drawing.Size(146, 115);
-            this.panelproceso.TabIndex = 10;
-            this.panelproceso.Visible = false;
-            // 
             // button4
             // 
             this.button4.Location = new System.Drawing.Point(3, 6);
@@ -81,6 +73,18 @@
             this.button4.Text = "Volver";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // panelproceso
+            // 
+            this.panelproceso.Controls.Add(this.pictureBox6);
+            this.panelproceso.Controls.Add(this.button2);
+            this.panelproceso.Controls.Add(this.pictureBox4);
+            this.panelproceso.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelproceso.Location = new System.Drawing.Point(0, 0);
+            this.panelproceso.Name = "panelproceso";
+            this.panelproceso.Size = new System.Drawing.Size(800, 450);
+            this.panelproceso.TabIndex = 10;
+            this.panelproceso.Visible = false;
             // 
             // button2
             // 
@@ -106,10 +110,10 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Image = global::proyecto.Properties.Resources.Green_Illustrative_Agriculture_Business_Trifold_Brochure;
-            this.pictureBox5.Location = new System.Drawing.Point(96, 38);
+            this.pictureBox5.Image = global::proyecto.Properties.Resources.verdadero;
+            this.pictureBox5.Location = new System.Drawing.Point(96, 12);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(587, 376);
+            this.pictureBox5.Size = new System.Drawing.Size(619, 402);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 3;
             this.pictureBox5.TabStop = false;
@@ -126,17 +130,26 @@
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
             // 
-            // pictureBox1
+            // pictureBox6
             // 
-            this.pictureBox1.Image = global::proyecto.Properties.Resources.Gemini_Generated_Image_kdnw6gkdnw6gkdnw;
-            this.pictureBox1.Location = new System.Drawing.Point(175, 127);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(177, 228);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 7;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Tag = "panelcaracteristicas";
-            this.pictureBox1.Click += new System.EventHandler(this.MostrarPanel_Click);
+            this.pictureBox6.Image = global::proyecto.Properties.Resources.descargas;
+            this.pictureBox6.Location = new System.Drawing.Point(88, 12);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(636, 426);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 3;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox4.Image = global::proyecto.Properties.Resources.fondocultivo;
+            this.pictureBox4.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(800, 450);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 0;
+            this.pictureBox4.TabStop = false;
             // 
             // imgfondojuego1
             // 
@@ -148,6 +161,18 @@
             this.imgfondojuego1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imgfondojuego1.TabIndex = 2;
             this.imgfondojuego1.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::proyecto.Properties.Resources.Gemini_Generated_Image_kdnw6gkdnw6gkdnw;
+            this.pictureBox1.Location = new System.Drawing.Point(175, 127);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(177, 228);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Tag = "panelcaracteristicas";
+            this.pictureBox1.Click += new System.EventHandler(this.MostrarPanel_Click);
             // 
             // pictureBox2
             // 
@@ -174,28 +199,17 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox4.Image = global::proyecto.Properties.Resources.fondocultivo;
-            this.pictureBox4.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(146, 115);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 0;
-            this.pictureBox4.TabStop = false;
-            // 
             // Formcultivo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.panelcaracteristicas);
+            this.Controls.Add(this.panelproceso);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.panelcaracteristicas);
             this.Controls.Add(this.imgfondojuego1);
-            this.Controls.Add(this.panelproceso);
             this.Controls.Add(this.irjuego);
             this.Name = "Formcultivo";
             this.Text = "Formcultivo";
@@ -203,10 +217,11 @@
             this.panelproceso.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgfondojuego1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgfondojuego1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -214,9 +229,6 @@
         #endregion
 
         private System.Windows.Forms.PictureBox imgfondojuego1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panelcaracteristicas;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Panel panelproceso;
@@ -225,5 +237,9 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button irjuego;
         private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button button1;
     }
 }

@@ -136,6 +136,9 @@
   <data name="plagas" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\plagas.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Dominico" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Dominico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -144,9 +147,6 @@
   </data>
   <data name="btnPlagas" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btnPlagas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ciclo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ciclo.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Caldo de bolas" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Caldo de bolas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -165,6 +165,9 @@
   </data>
   <data name="btnflecha" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btnflecha.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="descargas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\descargas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Macho" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Macho.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -211,8 +214,11 @@
   <data name="Gemini_Generated_Image_mc31jrmc31jrmc31" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Gemini_Generated_Image_mc31jrmc31jrmc31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="EMpanadas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EMpanadas.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ciclo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ciclo.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Blue and Purple Colorful Gradient Playful Cute Pixel Game Illustrative Trivia Quiz Presentation" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Blue and Purple Colorful Gradient Playful Cute Pixel Game Illustrative Trivia Quiz Presentation.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -253,8 +259,8 @@
   <data name="9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="EMpanadas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\EMpanadas.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Green Illustrative Agriculture Business Trifold Brochure" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Green Illustrative Agriculture Business Trifold Brochure.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="btn inicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btn inicio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -289,7 +295,7 @@
   <data name="suri" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\suri.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Green Illustrative Agriculture Business Trifold Brochure" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Green Illustrative Agriculture Business Trifold Brochure.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="verdadero" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\verdadero.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

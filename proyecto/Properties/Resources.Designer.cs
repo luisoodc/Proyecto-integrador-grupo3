@@ -365,6 +365,16 @@ namespace proyecto.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap descargas {
+            get {
+                object obj = ResourceManager.GetObject("descargas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Dominico {
             get {
                 object obj = ResourceManager.GetObject("Dominico", resourceCulture);
@@ -638,6 +648,16 @@ namespace proyecto.Properties {
         internal static System.Drawing.Bitmap tigrillo {
             get {
                 object obj = ResourceManager.GetObject("tigrillo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap verdadero {
+            get {
+                object obj = ResourceManager.GetObject("verdadero", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

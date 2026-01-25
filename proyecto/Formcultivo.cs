@@ -18,9 +18,9 @@ namespace proyecto
         }
         private void MostrarPanel_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("¡Hiciste clic en una carta!");
+            /*MessageBox.Show("¡Hiciste clic en una carta!");
 
-            PictureBox imagenSeleccionada = sender as PictureBox;
+            PictureBox imagenSeleccionada = sender as PictureBox;*/
 
             // 1. Identificar qué imagen recibió el clic
             PictureBox picSeleccionado = sender as PictureBox;
