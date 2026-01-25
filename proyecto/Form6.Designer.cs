@@ -35,22 +35,30 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panelgorgojo = new System.Windows.Forms.Panel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.button5 = new System.Windows.Forms.Button();
-            this.panelsigatoka = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.panelsuri = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.irjuego = new System.Windows.Forms.Button();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.panelsigatoka = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.irjuego = new System.Windows.Forms.Button();
+            this.panelsuri = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panelgorgojo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panelsigatoka.SuspendLayout();
             this.panelsuri.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -144,6 +152,7 @@
             // 
             this.panelgorgojo.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panelgorgojo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panelgorgojo.Controls.Add(this.pictureBox5);
             this.panelgorgojo.Controls.Add(this.button5);
             this.panelgorgojo.Controls.Add(this.pictureBox4);
             this.panelgorgojo.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -154,6 +163,18 @@
             this.panelgorgojo.Visible = false;
             this.panelgorgojo.Paint += new System.Windows.Forms.PaintEventHandler(this.panelmacho_Paint);
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox5.Image = global::proyecto.Properties.Resources._1gorgo;
+            this.pictureBox5.Location = new System.Drawing.Point(51, 40);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(660, 371);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 3;
+            this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
+            // 
             // button5
             // 
             this.button5.Location = new System.Drawing.Point(3, 3);
@@ -163,83 +184,6 @@
             this.button5.Text = "Volver";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.Volver_Click);
-            // 
-            // panelsigatoka
-            // 
-            this.panelsigatoka.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.panelsigatoka.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panelsigatoka.Controls.Add(this.label2);
-            this.panelsigatoka.Controls.Add(this.button3);
-            this.panelsigatoka.Location = new System.Drawing.Point(305, 356);
-            this.panelsigatoka.Name = "panelsigatoka";
-            this.panelsigatoka.Size = new System.Drawing.Size(93, 57);
-            this.panelsigatoka.TabIndex = 16;
-            this.panelsigatoka.Visible = false;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label2.Font = new System.Drawing.Font("Stencil", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(132, 75);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(522, 27);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Aqui se mostrara informacion sobre el macho";
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(3, 3);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(76, 38);
-            this.button3.TabIndex = 1;
-            this.button3.Text = "Volver";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.Volver_Click);
-            // 
-            // panelsuri
-            // 
-            this.panelsuri.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.panelsuri.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panelsuri.Controls.Add(this.label3);
-            this.panelsuri.Controls.Add(this.button4);
-            this.panelsuri.Location = new System.Drawing.Point(439, 356);
-            this.panelsuri.Name = "panelsuri";
-            this.panelsuri.Size = new System.Drawing.Size(93, 57);
-            this.panelsuri.TabIndex = 17;
-            this.panelsuri.Visible = false;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label3.Font = new System.Drawing.Font("Stencil", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(132, 75);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(522, 27);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Aqui se mostrara informacion sobre el macho";
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(3, 3);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(76, 38);
-            this.button4.TabIndex = 1;
-            this.button4.Text = "Volver";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.MouseCaptureChanged += new System.EventHandler(this.Volver_Click);
-            // 
-            // irjuego
-            // 
-            this.irjuego.BackColor = System.Drawing.Color.YellowGreen;
-            this.irjuego.Font = new System.Drawing.Font("Stencil", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.irjuego.Location = new System.Drawing.Point(573, 370);
-            this.irjuego.Name = "irjuego";
-            this.irjuego.Size = new System.Drawing.Size(115, 43);
-            this.irjuego.TabIndex = 18;
-            this.irjuego.Text = "Juego";
-            this.irjuego.UseVisualStyleBackColor = false;
             // 
             // pictureBox4
             // 
@@ -252,6 +196,108 @@
             this.pictureBox4.TabIndex = 2;
             this.pictureBox4.TabStop = false;
             // 
+            // panelsigatoka
+            // 
+            this.panelsigatoka.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.panelsigatoka.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panelsigatoka.Controls.Add(this.pictureBox9);
+            this.panelsigatoka.Controls.Add(this.button3);
+            this.panelsigatoka.Controls.Add(this.pictureBox8);
+            this.panelsigatoka.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelsigatoka.Location = new System.Drawing.Point(0, 0);
+            this.panelsigatoka.Name = "panelsigatoka";
+            this.panelsigatoka.Size = new System.Drawing.Size(741, 437);
+            this.panelsigatoka.TabIndex = 16;
+            this.panelsigatoka.Visible = false;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(3, 3);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(76, 38);
+            this.button3.TabIndex = 1;
+            this.button3.Text = "Volver";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.Volver_Click);
+            // 
+            // irjuego
+            // 
+            this.irjuego.BackColor = System.Drawing.Color.YellowGreen;
+            this.irjuego.Font = new System.Drawing.Font("Stencil", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.irjuego.Location = new System.Drawing.Point(573, 370);
+            this.irjuego.Name = "irjuego";
+            this.irjuego.Size = new System.Drawing.Size(115, 43);
+            this.irjuego.TabIndex = 18;
+            this.irjuego.Text = "Juego";
+            this.irjuego.UseVisualStyleBackColor = false;
+            // 
+            // panelsuri
+            // 
+            this.panelsuri.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.panelsuri.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panelsuri.Controls.Add(this.button4);
+            this.panelsuri.Controls.Add(this.pictureBox7);
+            this.panelsuri.Controls.Add(this.pictureBox6);
+            this.panelsuri.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelsuri.Location = new System.Drawing.Point(0, 0);
+            this.panelsuri.Name = "panelsuri";
+            this.panelsuri.Size = new System.Drawing.Size(741, 437);
+            this.panelsuri.TabIndex = 19;
+            this.panelsuri.Visible = false;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(3, 3);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(76, 38);
+            this.button4.TabIndex = 1;
+            this.button4.Text = "Volver";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox7.Image = global::proyecto.Properties.Resources._2suri;
+            this.pictureBox7.Location = new System.Drawing.Point(81, 24);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(603, 385);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 4;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox6.Image = global::proyecto.Properties.Resources.fondocultivo;
+            this.pictureBox6.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(737, 433);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 3;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox8.Image = global::proyecto.Properties.Resources.fondocultivo;
+            this.pictureBox8.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(737, 433);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 4;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = global::proyecto.Properties.Resources._3sigatoka;
+            this.pictureBox9.Location = new System.Drawing.Point(65, 40);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(646, 371);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 5;
+            this.pictureBox9.TabStop = false;
+            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
+            // 
             // Form6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -259,10 +305,10 @@
             this.BackgroundImage = global::proyecto.Properties.Resources._7N;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(741, 437);
+            this.Controls.Add(this.panelsigatoka);
+            this.Controls.Add(this.panelsuri);
             this.Controls.Add(this.panelgorgojo);
             this.Controls.Add(this.irjuego);
-            this.Controls.Add(this.panelsuri);
-            this.Controls.Add(this.panelsigatoka);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
@@ -278,11 +324,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panelgorgojo.ResumeLayout(false);
-            this.panelsigatoka.ResumeLayout(false);
-            this.panelsigatoka.PerformLayout();
-            this.panelsuri.ResumeLayout(false);
-            this.panelsuri.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.panelsigatoka.ResumeLayout(false);
+            this.panelsuri.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -299,12 +348,15 @@
         private System.Windows.Forms.Panel panelgorgojo;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Panel panelsigatoka;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Panel panelsuri;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button irjuego;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.Panel panelsuri;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.PictureBox pictureBox8;
     }
 }

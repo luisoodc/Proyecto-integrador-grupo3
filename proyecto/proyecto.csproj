@@ -326,6 +326,9 @@
   <ItemGroup>
     <None Include="Resources\verdadero.png" />
     <None Include="Resources\descargas.png" />
+    <None Include="Resources\1gorgo.png" />
+    <None Include="Resources\2suri.png" />
+    <None Include="Resources\3sigatoka.png" />
     <Content Include="Resources\Dorso.png" />
     <None Include="Resources\Green Illustrative Agriculture Business Trifold Brochure.png" />
     <None Include="Resources\fondocultivo.png" />

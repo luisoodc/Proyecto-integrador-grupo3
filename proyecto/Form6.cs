@@ -80,5 +80,20 @@ namespace proyecto
             form3.Show();
             this.Close(); // Cierra Form6
         }
+        pri
+vate void pictureBox5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
