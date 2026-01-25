@@ -95,5 +95,12 @@ vate void pictureBox5_Click(object sender, EventArgs e)
         {
 
         }
+
+        private void irjuego_Click(object sender, EventArgs e)
+        {
+            Form6juego2 form6 = new Form6juego2();
+            form6.Show();
+            this.Close(); // Cierra Form6
+        }
     }
 }
