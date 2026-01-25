@@ -85,17 +85,15 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(127, 112);
+            this.pictureBox2.Location = new System.Drawing.Point(165, 88);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 12;
             this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(127, 291);
+            this.pictureBox3.Location = new System.Drawing.Point(165, 260);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(100, 50);
             this.pictureBox3.TabIndex = 13;
@@ -103,7 +101,7 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(127, 211);
+            this.pictureBox4.Location = new System.Drawing.Point(165, 164);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(100, 50);
             this.pictureBox4.TabIndex = 14;
@@ -111,7 +109,7 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Location = new System.Drawing.Point(563, 278);
+            this.pictureBox5.Location = new System.Drawing.Point(551, 260);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(100, 50);
             this.pictureBox5.TabIndex = 15;
@@ -127,8 +125,7 @@
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Image = global::proyecto.Properties.Resources.gorgojo;
-            this.pictureBox7.Location = new System.Drawing.Point(538, 91);
+            this.pictureBox7.Location = new System.Drawing.Point(551, 88);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(100, 50);
             this.pictureBox7.TabIndex = 17;
