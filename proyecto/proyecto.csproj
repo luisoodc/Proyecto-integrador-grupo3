@@ -324,6 +324,9 @@
     <None Include="Resources\Barraganete.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\r3.png" />
+    <None Include="Resources\r2.png" />
+    <None Include="Resources\r1.png" />
     <None Include="Resources\verdadero.png" />
     <None Include="Resources\descargas.png" />
     <None Include="Resources\1gorgo.png" />
