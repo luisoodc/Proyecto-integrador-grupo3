@@ -307,9 +307,9 @@
             this.BackgroundImage = global::proyecto.Properties.Resources._7N;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(741, 437);
+            this.Controls.Add(this.panelsuri);
             this.Controls.Add(this.irjuego);
             this.Controls.Add(this.panelsigatoka);
-            this.Controls.Add(this.panelsuri);
             this.Controls.Add(this.panelgorgojo);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
