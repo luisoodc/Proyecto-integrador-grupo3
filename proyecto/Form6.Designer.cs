@@ -276,6 +276,7 @@
             this.button4.TabIndex = 1;
             this.button4.Text = "Volver";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.Volver_Click);
             // 
             // pictureBox7
             // 
