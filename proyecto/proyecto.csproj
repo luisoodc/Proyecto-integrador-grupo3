@@ -324,6 +324,7 @@
     <None Include="Resources\Barraganete.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Gemini_Generated_Image_suwomrsuwomrsuwo.png" />
     <None Include="Resources\r3.png" />
     <None Include="Resources\r2.png" />
     <None Include="Resources\r1.png" />

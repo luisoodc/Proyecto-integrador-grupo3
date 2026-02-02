@@ -475,6 +475,16 @@ namespace proyecto.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Gemini_Generated_Image_suwomrsuwomrsuwo {
+            get {
+                object obj = ResourceManager.GetObject("Gemini_Generated_Image_suwomrsuwomrsuwo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ggdominico {
             get {
                 object obj = ResourceManager.GetObject("ggdominico", resourceCulture);
