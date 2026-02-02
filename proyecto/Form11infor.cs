@@ -163,6 +163,11 @@ namespace proyecto
 
         }
 
+        private void panelbarraganete_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
         /* private void btnVolver(object sender, EventArgs e)
          {
              // Oculta el panel actual

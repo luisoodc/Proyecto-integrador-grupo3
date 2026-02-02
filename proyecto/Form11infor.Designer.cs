@@ -633,6 +633,7 @@
             this.panelbarraganete.Size = new System.Drawing.Size(800, 412);
             this.panelbarraganete.TabIndex = 21;
             this.panelbarraganete.Visible = false;
+            this.panelbarraganete.Paint += new System.Windows.Forms.PaintEventHandler(this.panelbarraganete_Paint);
             // 
             // label21
             // 

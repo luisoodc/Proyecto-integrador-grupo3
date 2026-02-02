@@ -37,8 +37,8 @@ namespace proyecto
             timerEspera.Interval = 750;
             timerEspera.Tick += TimerEspera_Tick;
 
-            // --- AQUÍ CAMBIA: Pon tus propias imágenes de los Recursos ---
-            // Debes poner cada imagen 2 veces para formar la pareja
+           
+            // ponemos cada imagen 2 veces para formar la pareja
             listaImagenes.Add(imgMacho); listaImagenes.Add(imgMacho);
             listaImagenes.Add(imgMaqueño); listaImagenes.Add(imgMaqueño);
             listaImagenes.Add(imgBarraganete); listaImagenes.Add(imgBarraganete);
@@ -71,7 +71,7 @@ namespace proyecto
         {
             // 1. Resetear variables y textos
             intentos = 0;
-            labintentos.Text = "Intentos: 0";
+            labintentos.Text = "Incorrectos: 0";
             primeraCarta = null;
             segundaCarta = null;
             timerEspera.Stop();
@@ -227,7 +227,7 @@ namespace proyecto
             // Solo si el número de cartas abiertas es igual al total, hay victoria
             if (cartasVolteadas == totalCartas && totalCartas > 0)
             {
-                MessageBox.Show("¡Felicidades! Completaste el juego en " + intentos + " intentos.");
+                MessageBox.Show("¡Felicidades! Completaste el juego con solo  " + intentos + " incorrectos.");
             }
         }
 
@@ -237,7 +237,7 @@ namespace proyecto
         }
 
         private void button2_Click(object sender, EventArgs e)
-        {
+        {   
             
             
                 IniciarJuego();
